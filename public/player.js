@@ -1,5 +1,6 @@
 {  
   // DOM
+  console.log("START");
   const script = document.currentScript;
   let canvas = document.getElementById('canvas');
   if (!canvas) {
