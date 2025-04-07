@@ -29,6 +29,7 @@
     nocache: search.get('n') == '1',
   };
 
+  console.log("URI: " + uri);
   if (uri == null)
     uri = 'nogame.love';
   if (arg) {
